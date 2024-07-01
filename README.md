@@ -1,1 +1,1 @@
-# eks-lsp
+# ets-lsp
