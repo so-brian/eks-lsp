@@ -1,6 +1,6 @@
 {
   "name": "ets-lsp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Implementation of ets language server in node.",
   "main": "server.ts",
   "scripts": {
@@ -11,7 +11,10 @@
     "url": "https://github.com/so-brian/ets-lsp.git"
   },
   "keywords": [
-    "SoBrian"
+    "ArchTS",
+    "HarmonyOS-Next",
+    "Language Server Protocal",
+    "ETS"
   ],
   "author": "SoBrian",
   "license": "GPL-3.0-or-later",
