@@ -1,10 +1,11 @@
 {
   "name": "ets-lsp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Implementation of ets language server in node.",
   "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -b src",
+    "watch": "tsc -b src -w"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,11 @@
   },
   "homepage": "https://github.com/so-brian/ets-lsp#readme",
   "dependencies": {
-    "@types/node": "^20.14.9",
-    "typescript": "^5.5.2",
     "vscode-languageserver": "^9.0.1",
-    "vscode-languageserver-textdocument":"^1.0.11"
+    "vscode-languageserver-textdocument": "^1.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
   }
 }
