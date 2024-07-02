@@ -2,7 +2,7 @@
   "name": "ets-lsp",
   "version": "0.0.2",
   "description": "Implementation of ets language server in node.",
-  "main": "server.ts",
+  "main": "./dist/server.js",
   "scripts": {
     "build": "tsc -b src",
     "watch": "tsc -b src -w"
